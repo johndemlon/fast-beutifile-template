@@ -1,0 +1,91 @@
+<html class="no-js" lang=""><head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>John Demlon</title>
+        <meta name="description" content="">
+        <link rel="shortcut icon" type="image/x-icon" href="https://assets.squarespace.com/universal/default-favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style type="text/css">
+
+            html, body {
+                height: 100%;
+                margin: 0px;
+            }
+
+            html {
+                background-color: #0d0d0d;
+                color: white;
+            }
+/*            body {
+                background-image: url('/comet.jpg');
+                background-size: cover;
+                background-position-x: center;
+            }*/
+            .background {
+                z-index: -1;
+                position: fixed;
+                top: 4.5em;
+                right: 50%;
+                bottom: 0;
+                left: 50%;
+                margin:0 -450px;
+                background: url('https://maxmcd.com/comet.jpg') no-repeat; 
+                background-position-x: center;
+                background-size: cover;
+                -webkit-animation: fadein 5s; 
+                        animation: fadein 5s;
+            }
+            pre {
+                max-width: 600px;
+                margin: 0px auto;
+                padding: 10px;
+                -webkit-animation: fadein 5s; 
+                        animation: fadein 5s;
+            }
+            a {
+                color: #ccc;
+                text-decoration: none;
+                position: relative;
+                width: 100%;
+            }
+            a:hover {
+                /*text-decoration: underline;*/
+                color: white;
+                margin: 5px 0px;
+            }
+            a.info:hover:after {
+                content: attr(data-info) " ";
+                display: block;
+                position: absolute;
+                background: black;
+                border-radius: 5px;
+                border: 1px solid #eee;
+                color: #999;
+                /*width: 60%;*/
+                top: 0px;
+                white-space: normal;
+                left: 100px;
+                padding: 10px;
+                z-index: 1;
+                width: 400px;
+            }
+
+            @keyframes fadein {
+                from { opacity: 0; }
+                to   { opacity: 1; }
+            }
+
+            @-webkit-keyframes fadein {
+                from { opacity: 0; }
+                to   { opacity: 1; }
+            }
+        </style>
+    
+    </head>
+    <body>
+    <div class="background"></div>
+<pre>Hi, I'm John Demlon
+Github:    <a href="https://github.com/johndemlon">johndemlon</a>
+Contact: <a href="mailto:peepmud@gmail.com">peepmud@gmail.com</a>
+</pre>
+</body></html>
